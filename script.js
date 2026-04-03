@@ -198,27 +198,52 @@ setInterval(() => {
 contactForm?.addEventListener("submit", (e) => {
   e.preventDefault();
   if (!contactForm.checkValidity()) {
-    feedback.textContent = "Please complete all required fields correctly.";
+    feedback.textContent = "⚠ Please complete all required fields correctly.";
+    feedback.style.color = "#ed8b4a";
     return;
   }
-  const checkedServices = [...contactForm.querySelectorAll('input[name="services"]:checked')].map((el) => el.value);
-  if (checkedServices.length === 0) {
-    feedback.textContent = "Please select at least one service.";
-    return;
-  }
+
   const formData = new FormData(contactForm);
-  const firstName = formData.get("firstName");
-  const lastName = formData.get("lastName");
-  feedback.textContent = `Thanks, ${firstName}. Your inquiry draft is ready. Opening your email client...`;
-  const subject = encodeURIComponent("New Inquiry - Mignon Minds Website");
+  const name = formData.get("name");
+  const phone = formData.get("phone");
+  const service = formData.get("service");
+  const location = formData.get("location");
+  const message = formData.get("message") || "";
+
+  feedback.textContent = `✓ Thanks, ${name}. Opening your email client...`;
+  feedback.style.color = "#7ed4c7";
+
+  const subject = encodeURIComponent(`Service Inquiry - ${service}`);
   const body = encodeURIComponent(
-    `Name: ${firstName} ${lastName}\nEmail: ${formData.get("email")}\nPhone: ${formData.get("phone")}\nServices: ${checkedServices.join(", ")}\n\nMessage:\n${formData.get("message")}`
+    `Name: ${name}\nPhone: ${phone}\nService: ${service}\nLocation: ${location}\n\nMessage:\n${message}`
   );
   window.location.href = `mailto:care@mignonminds.com?subject=${subject}&body=${body}`;
-  contactForm.reset();
+  
+  setTimeout(() => contactForm.reset(), 2000);
 });
 
 document.getElementById("year").textContent = new Date().getFullYear();
+
+// GALLERY FILTERING
+const galleryFilters = document.querySelectorAll(".gallery-filter");
+const galleryItems = document.querySelectorAll(".gallery-item");
+
+galleryFilters.forEach((filter) => {
+  filter.addEventListener("click", () => {
+    const category = filter.dataset.filter;
+    
+    galleryFilters.forEach((f) => f.classList.remove("active"));
+    filter.classList.add("active");
+    
+    galleryItems.forEach((item) => {
+      if (category === "all" || item.dataset.category === category) {
+        item.classList.remove("hidden");
+      } else {
+        item.classList.add("hidden");
+      }
+    });
+  });
+});
 
 lightboxTriggers.forEach((img) => {
   img.addEventListener("click", () => {
