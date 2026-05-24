@@ -174,6 +174,21 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => form.reset(), 1800);
   });
 
+  /* --------- Gallery filter pills --------- */
+  const filterPills = document.querySelectorAll(".filter-pill");
+  const galleryItems = document.querySelectorAll(".gallery-item");
+  filterPills.forEach((pill) => {
+    pill.addEventListener("click", () => {
+      filterPills.forEach((p) => p.classList.remove("is-active"));
+      pill.classList.add("is-active");
+      const cat = pill.dataset.filter;
+      galleryItems.forEach((item) => {
+        const match = cat === "all" || item.dataset.category === cat;
+        item.classList.toggle("is-hidden", !match);
+      });
+    });
+  });
+
   /* --------- Cursor dot --------- */
   const dot = document.querySelector(".cursor-dot");
   if (dot) {
