@@ -3,971 +3,623 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Mignon Minds - Professional Waterproofing & Interior Design Services in Hyderabad. Leak-proof solutions and space-optimized interiors.">
-  <title>Mignon Minds | Waterproofing & Interior Design Services in Hyderabad</title>
+  <meta name="description" content="Mignon Minds — A Hyderabad atelier crafting integrated construction, interior, and asset solutions with editorial precision.">
+  <title>Mignon Minds — An Atelier of Built Environments | Hyderabad</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="editorial.css">
 </head>
 <body>
-  <div class="noise" aria-hidden="true"></div>
-  <div class="blueprint-bg" aria-hidden="true"></div>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a href="#home" class="brand">
-        <span class="brand-mark">
-          <img src="assets/images/logo.png" alt="Mignon Minds logo">
+
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <!-- ============ TOPBAR ============ -->
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a href="#top" class="brand" id="top">
+        <span class="brand-mark"><img src="assets/images/logo.png" alt="Mignon Minds emblem"></span>
+        <span class="brand-text">
+          <span class="brand-name">Mignon Minds</span>
+          <span class="brand-tag">Atelier · Hyderabad</span>
         </span>
-        <span class="brand-text">Mignon Minds</span>
       </a>
-      <nav class="nav" id="main-nav">
-        <a href="waterproofing.html" class="nav-primary">Waterproofing</a>
-        <a href="interiors.html" class="nav-primary">Interiors</a>
-        <a href="#services">Other Services</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="#reviews">Reviews</a>
+
+      <nav class="topnav" id="topnav">
+        <a href="#atelier">Atelier</a>
+        <a href="#disciplines">Disciplines</a>
+        <a href="#method">Method</a>
+        <a href="#works">Works</a>
+        <a href="#voices">Voices</a>
         <a href="#contact">Contact</a>
       </nav>
-      <div class="header-actions">
-        <a href="tel:+917396273399" class="quick-btn">Call Now</a>
-        <a href="https://wa.me/917396273399?text=Hi%2C%20I%20need%20help%20with" class="quick-btn whatsapp-btn" target="_blank">WhatsApp</a>
-      </div>
-      <button class="menu-btn" id="menu-btn" aria-label="Open menu">
+
+      <a href="#contact" class="topbar-cta">Begin Project</a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu">
         <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
-  <main id="home">
-    <div class="offer-banner">
-      <div class="container">
-        <p>🎉 <strong>Limited Time Offer:</strong> Get FREE Waterproofing Inspection + 5-Year Warranty on All Services | <a href="#contact">Book Now</a></p>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="shell hero-grid">
+      <div class="hero-copy">
+        <p class="hero-meta reveal">
+          <span>Est. 2025</span>
+          <span class="dot"></span>
+          <span>Hyderabad · Telangana</span>
+          <span class="dot"></span>
+          <span>LLP</span>
+        </p>
+
+        <h1 class="display reveal">
+          Crafting <span class="accent">Spaces</span><br>
+          of Distinction.
+        </h1>
+
+        <p class="hero-lede reveal">
+          An atelier where construction, interior, and asset stewardship
+          converge — composed with editorial precision and built to endure.
+        </p>
+
+        <div class="hero-actions reveal">
+          <a href="#contact" class="btn btn-primary">
+            Begin Your Project <span class="arrow">→</span>
+          </a>
+          <a href="tel:+917396273399" class="btn btn-ghost">
+            +91 73962 73399
+          </a>
+        </div>
+
+        <div class="hero-aside reveal">
+          <span><b>I.</b> Construction</span>
+          <span><b>II.</b> Interiors</span>
+          <span><b>III.</b> Assets</span>
+          <span><b>IV.</b> Merch</span>
+        </div>
       </div>
+
+      <figure class="hero-visual reveal" aria-label="Featured work">
+        <img class="is-active" src="assets/images/hero-interior.jpeg" alt="Interior atelier work">
+        <img src="assets/images/wip-site-2.jpg" alt="Construction development on site">
+        <img src="assets/images/gallery-architecture.jpeg" alt="Architectural facade">
+        <span class="hero-frame" aria-hidden="true"></span>
+        <figcaption class="hero-caption">
+          <span>Selected · 001</span>
+          Bowrampet Residence — Interior Composition
+        </figcaption>
+      </figure>
     </div>
+  </section>
 
-    <section class="hero section">
-      <div class="hero-bg">
-        <span class="orb orb-a"></span>
-        <span class="orb orb-b"></span>
-        <span class="orb orb-c"></span>
-
-      </div>
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <div class="hero-badges reveal">
-            <span class="badge-warranty">✓ 5-Year Warranty</span>
-            <span class="badge-response">⚡ 24-Hour Response</span>
-          </div>
-          <p class="eyebrow reveal">Serving Hyderabad & Telangana</p>
-          <h1 class="reveal">Integrated Construction, Interior & Property Solutions</h1>
-          <p class="lead reveal">
-            From advanced waterproofing and façade engineering to turnkey interior execution and property management—
-            delivering comprehensive built environment solutions with professional excellence.
-          </p>
-          <div class="hero-actions reveal">
-            <a href="#contact" class="btn btn-primary">Book Free Inspection</a>
-            <a href="tel:+917396273399" class="btn btn-ghost">Call Now</a>
-            <a href="https://wa.me/917396273399?text=Hi%2C%20I%20need%20help%20with" class="btn btn-accent" target="_blank">WhatsApp Us</a>
-          </div>
-          <div class="hero-tags reveal">
-            <span>BLDUP</span>
-            <span>SPACE</span>
-            <span>ASSET</span>
-            <span>MERCH</span>
-          </div>
-          <div class="floating-notes reveal" aria-hidden="true">
-            <span>Advanced Waterproofing</span>
-            <span>Façade Engineering</span>
-            <span>Turnkey Interiors</span>
-            <span>MEP Integration</span>
-            <span>Design Thinking</span>
-          </div>
-        </div>
-        <div class="hero-panel reveal">
-          <article class="floating-card">
-            <div class="hero-slider" id="hero-slider">
-              <img class="hero-media active" src="assets/images/hero-interior.jpeg" alt="Premium interior execution by Mignon Minds" loading="lazy">
-              <img class="hero-media" src="assets/images/wip-site-2.jpg" alt="Construction development in progress" loading="lazy">
-              <img class="hero-media" src="assets/images/gallery-asset.jpg" alt="Property and asset management support" loading="lazy">
-              <div class="hero-slider-dots">
-                <button class="hero-dot active" data-hero-slide="0" aria-label="Hero slide 1"></button>
-                <button class="hero-dot" data-hero-slide="1" aria-label="Hero slide 2"></button>
-                <button class="hero-dot" data-hero-slide="2" aria-label="Hero slide 3"></button>
-              </div>
-            </div>
-            <h3>Comprehensive Solutions</h3>
-            <p>From advanced waterproofing and façade engineering to turnkey interior execution with MEP coordination, we deliver integrated built environment solutions with professional excellence.</p>
-          </article>
-        </div>
-      </div>
-
-    </section>
-
-    <section id="simple-process" class="section">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">How It Works</p>
-          <h2>Simple 3-step process</h2>
-        </div>
-        <div class="simple-process-grid">
-          <article class="process-step-card reveal">
-            <div class="process-icon">
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-              </svg>
-            </div>
-            <h3>1. Inspection</h3>
-            <p>Free site visit to assess your requirements and provide accurate quote</p>
-          </article>
-          <article class="process-step-card reveal">
-            <div class="process-icon">
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/>
-              </svg>
-            </div>
-            <h3>2. Work</h3>
-            <p>Professional execution with quality materials and regular progress updates</p>
-          </article>
-          <article class="process-step-card reveal">
-            <div class="process-icon">
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
-              </svg>
-            </div>
-            <h3>3. Completion</h3>
-            <p>Final inspection, warranty documentation, and 24-hour support</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="brand-strip">
-      <div class="ticker">
-        <div class="ticker-track">
-          <span>Civil Contracting</span>
-          <span>Façade Engineering</span>
-          <span>Advanced Waterproofing</span>
-          <span>Turnkey Interior Execution</span>
-          <span>MEP & Finishing Works</span>
-          <span>Design Thinking</span>
-          <span>Commercial Leasing</span>
-          <span>Asset Maintenance</span>
-          <span>Corporate Gifting Solutions</span>
-          <span>Civil Contracting</span>
-          <span>Façade Engineering</span>
-          <span>Advanced Waterproofing</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="architecture" class="section architecture-touch">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Architectural Signature</p>
-          <h2>Designed with blueprint logic, built with site discipline</h2>
-        </div>
-        <div class="arch-grid">
-          <article class="arch-card reveal">
-            <h3>Master Planning</h3>
-            <p>Every project starts with zoning, circulation flow, utility mapping, and spatial hierarchy.</p>
-            <div class="arch-lines" aria-hidden="true">
-              <span></span><span></span><span></span><span></span>
-            </div>
-          </article>
-          <article class="arch-card reveal">
-            <h3>Structural Intelligence</h3>
-            <p>Construction and fit-out decisions are aligned with structural logic, safety, and long-term durability.</p>
-            <div class="arch-lines" aria-hidden="true">
-              <span></span><span></span><span></span><span></span>
-            </div>
-          </article>
-          <article class="arch-card reveal">
-            <h3>Material + Finish Language</h3>
-            <p>We balance textures, tones, and practical performance to deliver spaces that feel premium and purposeful.</p>
-            <div class="material-palette" aria-hidden="true">
-              <span></span><span></span><span></span><span></span><span></span>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="identity" class="section identity">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Mignon Minds Identity</p>
-          <h2>Built with local roots, delivered with multidisciplinary precision</h2>
-        </div>
-        <div class="identity-grid">
-          <article class="identity-feature reveal">
-            <h3>Mignon Minds LLP</h3>
-            <p>A Hyderabad-based Limited Liability Partnership focused on construction, interiors, and real estate execution.</p>
-            <div class="identity-pills">
-              <span>Incorporated: April 18, 2025</span>
-              <span>Status: Active</span>
-              <span>RoC: Hyderabad</span>
-            </div>
-          </article>
-          <article class="identity-feature reveal">
-            <h3>Core Expertise</h3>
-            <ul>
-              <li>Construction and fit-out execution</li>
-              <li>Interior design and space optimization</li>
-              <li>Buy/sell and leasing facilitation</li>
-              <li>Specialized waterproofing and expansion joints</li>
-            </ul>
-          </article>
-          <article class="identity-feature reveal">
-            <h3>Registered Location</h3>
-            <p>Bahadurpally / Bowrampet, Hyderabad, Telangana - 500043.</p>
-            <p class="identity-note">Serving homeowners, commercial clients, NRIs, and corporate teams with an integrated service model.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section stats">
-      <div class="stats-bg" aria-hidden="true"></div>
-      <div class="container stats-grid">
-        <article class="stat reveal">
-          <h2><span data-count="15">0</span><span class="metric-suffix">-Days</span></h2>
-          <p>Design</p>
-        </article>
-        <article class="stat reveal">
-          <h2><span data-count="30">0</span><span class="metric-suffix">-Days</span></h2>
-          <p>Production</p>
-        </article>
-        <article class="stat reveal">
-          <h2><span data-count="15">0</span><span class="metric-suffix">-Days</span></h2>
-          <p>Installation</p>
-        </article>
-        <article class="stat reveal">
-          <h2><span data-count="10">0</span></h2>
-          <p>Projects Done</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="about" class="section about">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">About Mignon Minds</p>
-          <h2>Where imagination meets practical excellence</h2>
-        </div>
-        <div class="about-grid">
-          <article class="about-card reveal">
-            <h3>Vision</h3>
-            <p>To become a trusted multi-domain solutions partner for spaces, assets, and experiences.</p>
-          </article>
-          <article class="about-card reveal">
-            <h3>Mission</h3>
-            <p>Deliver integrated, high-quality outcomes with transparent process, creativity, and client-first focus.</p>
-          </article>
-          <article class="about-card reveal">
-            <h3>Who We Are</h3>
-            <p>A multidisciplinary team of designers, engineers, managers, and brand thinkers transforming ideas into value.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="services" class="section services">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Core Services</p>
-          <h2>Integrated construction, interior, and property solutions</h2>
-        </div>
-        <div class="service-grid-main">
-          <article class="service-card-main reveal" data-tilt>
-            <div class="service-icon">
-              <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
-                <polyline points="9 22 9 12 15 12 15 22"/>
-              </svg>
-            </div>
-            <img class="service-media" src="assets/images/service-construct.png" alt="Construction service visual" loading="lazy">
-            <span class="service-id">01</span>
-            <h3>Construction (BLDUP)</h3>
-            <ul style="padding-left: 1.2rem; color: var(--muted); line-height: 1.7; margin: 0.8rem 0;">
-              <li>Civil Contracting</li>
-              <li>Façade Engineering</li>
-              <li>Building Envelope</li>
-              <li>Advanced Waterproofing</li>
-            </ul>
-            <div class="service-actions">
-              <a href="waterproofing.html" class="service-link">Waterproofing Details</a>
-              <a href="#contact" class="service-link">Get Quote</a>
-            </div>
-          </article>
-          <article class="service-card-main reveal" data-tilt>
-            <div class="service-icon">
-              <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                <line x1="9" y1="3" x2="9" y2="21"/>
-                <line x1="15" y1="3" x2="15" y2="21"/>
-              </svg>
-            </div>
-            <img class="service-media" src="assets/images/service-interiors.png" alt="Interior design service visual" loading="lazy">
-            <span class="service-id">02</span>
-            <h3>Interiors (SPACE)</h3>
-            <ul style="padding-left: 1.2rem; color: var(--muted); line-height: 1.7; margin: 0.8rem 0;">
-              <li>Turnkey Interior Execution</li>
-              <li>MEP & Finishing Works</li>
-              <li>Collaborative Design Thinking</li>
-            </ul>
-            <div class="service-actions">
-              <a href="interiors.html" class="service-link">View Portfolio</a>
-              <a href="#contact" class="service-link">Book Consultation</a>
-            </div>
-          </article>
-        </div>
-        <div class="section-head reveal" style="margin-top: 3rem;">
-          <p class="eyebrow">Additional Services</p>
-          <h3>Property management and corporate solutions</h3>
-        </div>
-        <div class="service-grid-secondary">
-          <article class="service-card-small reveal">
-            <span class="service-id-small">03</span>
-            <h4>Property Management (ASSET)</h4>
-            <ul style="padding-left: 1rem; color: var(--muted); font-size: 0.85rem; line-height: 1.6; margin: 0.5rem 0 0;">
-              <li>Commercial Leasing Solutions</li>
-              <li>Asset Maintenance Programs</li>
-              <li>Buy/Sell Facilitation</li>
-              <li>Due Diligence</li>
-            </ul>
-          </article>
-          <article class="service-card-small reveal">
-            <span class="service-id-small">04</span>
-            <h4>Corporate Gifting (MERCH)</h4>
-            <ul style="padding-left: 1rem; color: var(--muted); font-size: 0.85rem; line-height: 1.6; margin: 0.5rem 0 0;">
-              <li>Custom Corporate Gifting</li>
-              <li>Event & Festive Gifting Solutions</li>
-              <li>Brand Personalizations</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="process" class="section process">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Work Process</p>
-          <h2>How we turn ideas into outcomes</h2>
-        </div>
-        <div class="process-shell reveal">
-          <div class="process-main">
-            <figure class="step-visual">
-              <img id="step-image" src="assets/images/process-1.png" alt="Discover step visual" loading="lazy">
-            </figure>
-            <article class="step-content" id="step-content">
-              <h3>Discover</h3>
-              <p>We listen to your goals, use-case, budget, and timeline to create a direction that fits your context.</p>
-            </article>
-            <div class="process-meta">
-              <span class="step-index" id="step-index">Step 01</span>
-              <span class="step-tagline">Client-first execution framework</span>
-            </div>
-            <div class="process-progress" aria-hidden="true">
-              <span id="process-progress-bar"></span>
-            </div>
-          </div>
-          <div class="stepper" id="stepper">
-            <button class="step active" data-step="1">
-              <span class="step-no">01</span>
-              <span class="step-copy"><strong>Discover</strong><small>Understand goals, site, and constraints.</small></span>
-            </button>
-            <button class="step" data-step="2">
-              <span class="step-no">02</span>
-              <span class="step-copy"><strong>Define</strong><small>Lock scope, timelines, and project expectations.</small></span>
-            </button>
-            <button class="step" data-step="3">
-              <span class="step-no">03</span>
-              <span class="step-copy"><strong>Design</strong><small>Build practical concepts and visual direction.</small></span>
-            </button>
-            <button class="step" data-step="4">
-              <span class="step-no">04</span>
-              <span class="step-copy"><strong>Develop</strong><small>Coordinate procurement, resources, and execution.</small></span>
-            </button>
-            <button class="step" data-step="5">
-              <span class="step-no">05</span>
-              <span class="step-copy"><strong>Deliver</strong><small>Execute with quality checks and milestone visibility.</small></span>
-            </button>
-            <button class="step" data-step="6">
-              <span class="step-no">06</span>
-              <span class="step-copy"><strong>Delight</strong><small>Refine, support, and ensure lasting value.</small></span>
-            </button>
-          </div>
-        </div>
-        <div class="process-gallery reveal">
-          <figure class="process-shot jump-step" data-step="1">
-            <img src="assets/images/process-1.png" alt="Discover phase visual" loading="lazy">
-            <figcaption>Discover</figcaption>
-          </figure>
-          <figure class="process-shot jump-step" data-step="2">
-            <img src="assets/images/process-2.png" alt="Define phase visual" loading="lazy">
-            <figcaption>Define</figcaption>
-          </figure>
-          <figure class="process-shot jump-step" data-step="3">
-            <img src="assets/images/process-3.png" alt="Design phase visual" loading="lazy">
-            <figcaption>Design</figcaption>
-          </figure>
-          <figure class="process-shot jump-step" data-step="4">
-            <img src="assets/images/process-4.jpg" alt="Develop phase visual" loading="lazy">
-            <figcaption>Develop</figcaption>
-          </figure>
-          <figure class="process-shot jump-step" data-step="5">
-            <img src="assets/images/process-5.png" alt="Deliver phase visual" loading="lazy">
-            <figcaption>Deliver</figcaption>
-          </figure>
-          <figure class="process-shot jump-step" data-step="6">
-            <img src="assets/images/process-6.png" alt="Delight phase visual" loading="lazy">
-            <figcaption>Delight</figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <section class="section wip-showcase">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Work In Progress</p>
-          <h2>From live sites to final handover - transparent at every stage</h2>
-        </div>
-        <div class="wip-grid">
-          <article class="wip-card reveal lightbox-trigger">
-            <img src="assets/images/wip-site-1.jpg" alt="On-site work in progress stage one" loading="lazy">
-            <div class="wip-overlay">
-              <span class="wip-badge">Stage 01</span>
-              <h3>Site Preparation</h3>
-              <p>Ground condition review, safety setup, and timeline lock-in before execution.</p>
-            </div>
-          </article>
-          <article class="wip-card reveal lightbox-trigger">
-            <img src="assets/images/wip-site-2.jpg" alt="On-site work in progress stage two" loading="lazy">
-            <div class="wip-overlay">
-              <span class="wip-badge">Stage 02</span>
-              <h3>Active Development</h3>
-              <p>Coordinated civil, MEP, and fit-out activities with day-to-day quality checks.</p>
-            </div>
-          </article>
-          <article class="wip-card reveal lightbox-trigger">
-            <img src="assets/images/wip-site-3.jpg" alt="On-site work in progress stage three" loading="lazy">
-            <div class="wip-overlay">
-              <span class="wip-badge">Stage 03</span>
-              <h3>Finish & Handover</h3>
-              <p>Detailing, snag closure, and polished delivery with complete client walkthrough.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section before-after">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Transformation View</p>
-          <h2>Before and after clarity for real decision-making</h2>
-        </div>
-        <div class="ba-grid">
-          <article class="ba-card reveal">
-            <h3>Interiors Transformation</h3>
-            <div class="ba-frame" data-ba-frame>
-              <img src="assets/images/wip-site-1.jpg" alt="Interior before transformation" class="ba-image ba-before" loading="lazy">
-              <div class="ba-after-wrap" data-ba-after-wrap>
-                <img src="assets/images/hero-interior.jpeg" alt="Interior after transformation" class="ba-image ba-after" loading="lazy">
-              </div>
-              <input type="range" class="ba-range" data-ba-range min="0" max="100" value="50" aria-label="Compare before and after interior">
-            </div>
-          </article>
-          <article class="ba-card reveal">
-            <h3>Site to Handover Progress</h3>
-            <div class="ba-frame" data-ba-frame>
-              <img src="assets/images/wip-site-2.jpg" alt="Site development before completion" class="ba-image ba-before" loading="lazy">
-              <div class="ba-after-wrap" data-ba-after-wrap>
-                <img src="assets/images/wip-site-3.jpg" alt="Project handover stage" class="ba-image ba-after" loading="lazy">
-              </div>
-              <input type="range" class="ba-range" data-ba-range min="0" max="100" value="50" aria-label="Compare before and after site execution">
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section status-matrix">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Project Status Matrix</p>
-          <h2>Every engagement tracked with transparent stage tags</h2>
-        </div>
-        <div class="matrix-grid">
-          <article class="matrix-card reveal">
-            <div class="matrix-top">
-              <h3>Bowrampet Villa Fit-out</h3>
-              <span class="status-tag status-execution">Execution</span>
-            </div>
-            <p>Interior + MEP integration for a multi-level residence with milestone-based reviews.</p>
-          </article>
-          <article class="matrix-card reveal">
-            <div class="matrix-top">
-              <h3>Commercial Workspace Build</h3>
-              <span class="status-tag status-planning">Planning</span>
-            </div>
-            <p>Design finalization, BOQ alignment, and phased roll-out strategy for rapid occupancy.</p>
-          </article>
-          <article class="matrix-card reveal">
-            <div class="matrix-top">
-              <h3>NRI Asset Maintenance Program</h3>
-              <span class="status-tag status-maintenance">Maintenance</span>
-            </div>
-            <p>Scheduled inspections, repair coordination, and reporting to preserve long-term value.</p>
-          </article>
-          <article class="matrix-card reveal">
-            <div class="matrix-top">
-              <h3>Leak-Proof Joint Retrofit</h3>
-              <span class="status-tag status-handover">Handover</span>
-            </div>
-            <p>Expansion joint treatment and waterproofing with closure verification and support.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="use-cases" class="section use-cases">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Use Case Explorer</p>
-          <h2>How we solve real client scenarios</h2>
-        </div>
-        <div class="case-filters reveal">
-          <button class="case-filter active" data-segment="all">All</button>
-          <button class="case-filter" data-segment="residential">Residential</button>
-          <button class="case-filter" data-segment="commercial">Commercial</button>
-          <button class="case-filter" data-segment="nri">NRI Owners</button>
-          <button class="case-filter" data-segment="corporate">Corporate</button>
-        </div>
-        <div class="case-grid">
-          <article class="case-card reveal lightbox-trigger" data-segment="residential">
-            <img src="assets/images/hero-interior.jpeg" alt="Compact apartment transformation" loading="lazy">
-            <div class="case-copy">
-              <h3>Compact Apartment Transformation</h3>
-              <p>Space planning, modular furniture, hidden storage, and efficient movement zones.</p>
-            </div>
-          </article>
-          <article class="case-card reveal lightbox-trigger" data-segment="residential">
-            <img src="assets/images/gallery-finish.jpeg" alt="Villa interior execution" loading="lazy">
-            <div class="case-copy">
-              <h3>Villa End-to-End Interiors</h3>
-              <p>Concept to handover with MEP integration, premium finishing, and quality control.</p>
-            </div>
-          </article>
-          <article class="case-card reveal lightbox-trigger" data-segment="commercial">
-            <img src="assets/images/gallery-architecture.jpeg" alt="Office and commercial architecture" loading="lazy">
-            <div class="case-copy">
-              <h3>Commercial Workspace Delivery</h3>
-              <p>Functional zoning, facade enhancement, and project scheduling for quick occupancy.</p>
-            </div>
-          </article>
-          <article class="case-card reveal lightbox-trigger" data-segment="commercial">
-            <img src="assets/images/gallery-construction.jpg" alt="Construction execution use case" loading="lazy">
-            <div class="case-copy">
-              <h3>Turnkey Construction Execution</h3>
-              <p>Single-vendor accountability from approvals and BOQ to on-site delivery.</p>
-            </div>
-          </article>
-          <article class="case-card reveal lightbox-trigger" data-segment="nri">
-            <img src="assets/images/gallery-asset.jpg" alt="NRI property management use case" loading="lazy">
-            <div class="case-copy">
-              <h3>NRI Property Care Program</h3>
-              <p>Periodic inspections, tenant support, maintenance reports, and value protection.</p>
-            </div>
-          </article>
-          <article class="case-card reveal lightbox-trigger" data-segment="nri commercial">
-            <img src="assets/images/process-5.png" alt="Leasing and maintenance support" loading="lazy">
-            <div class="case-copy">
-              <h3>Lease + Maintain + Grow ROI</h3>
-              <p>Leasing strategy and maintenance planning aligned with long-term asset growth.</p>
-            </div>
-          </article>
-          <article class="case-card reveal lightbox-trigger" data-segment="corporate">
-            <img src="assets/images/gallery-gifting.jpg" alt="Corporate gifting campaign setup" loading="lazy">
-            <div class="case-copy">
-              <h3>Festive Gifting Campaigns</h3>
-              <p>Bulk curated gifts, custom packaging, and timely branded deliveries.</p>
-            </div>
-          </article>
-          <article class="case-card reveal lightbox-trigger" data-segment="corporate">
-            <img src="assets/images/service-gifting.png" alt="Branded sustainable gifting program" loading="lazy">
-            <div class="case-copy">
-              <h3>Sustainable Brand Merch</h3>
-              <p>Eco-conscious, utility-first merchandise designed for stronger brand recall.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="work" class="section showcase">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Why Mignon Minds</p>
-          <h2>Distinctive value in every engagement</h2>
-        </div>
-        <div class="chip-row reveal">
-          <button class="chip active" data-filter="all">All</button>
-          <button class="chip" data-filter="quality">Quality</button>
-          <button class="chip" data-filter="speed">Speed</button>
-          <button class="chip" data-filter="value">Value</button>
-          <button class="chip" data-filter="trust">Trust</button>
-        </div>
-        <div class="tile-grid">
-          <article class="tile reveal" data-cat="quality trust">
-            <h3>Integrated In-house Coordination</h3>
-            <p>Less handoff friction, stronger accountability, and consistent quality across teams.</p>
-          </article>
-          <article class="tile reveal" data-cat="speed value">
-            <h3>Structured Planning & BOQ Clarity</h3>
-            <p>Clear scope and pre-aligned decisions reduce delays and avoid costly rework.</p>
-          </article>
-          <article class="tile reveal" data-cat="value trust">
-            <h3>Lifecycle Support Beyond Delivery</h3>
-            <p>From execution to maintenance and leasing, you continue receiving practical support.</p>
-          </article>
-          <article class="tile reveal" data-cat="quality speed">
-            <h3>Design + Engineering Harmony</h3>
-            <p>Beautiful outcomes backed by technical precision and long-term durability.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section visual-story">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Execution Snapshots</p>
-          <h2>Ground-level project moments from planning to handover</h2>
-        </div>
-        <div class="story-grid">
-          <figure class="story-card reveal lightbox-trigger">
-            <img src="assets/images/wip-site-1.jpg" alt="Site preparation for a residential project" loading="lazy">
-            <figcaption class="story-detail">
-              <strong>Residential Site Preparation</strong>
-              <span>Bowrampet | Civil + Fit-out</span>
-            </figcaption>
-          </figure>
-          <figure class="story-card reveal lightbox-trigger">
-            <img src="assets/images/wip-site-2.jpg" alt="Live development stage with on-site progress" loading="lazy">
-            <figcaption class="story-detail">
-              <strong>Active Development Stage</strong>
-              <span>Hyderabad | Multi-team coordination</span>
-            </figcaption>
-          </figure>
-          <figure class="story-card reveal lightbox-trigger">
-            <img src="assets/images/wip-site-3.jpg" alt="Final finishing and handover phase" loading="lazy">
-            <figcaption class="story-detail">
-              <strong>Finishing and Handover</strong>
-              <span>Quality checks | Client walkthrough</span>
-            </figcaption>
-          </figure>
-          <figure class="story-card reveal lightbox-trigger">
-            <img src="assets/images/process-5.png" alt="Waterproofing and leak-proof detailing work" loading="lazy">
-            <figcaption class="story-detail">
-              <strong>Leak-Proof Detailing</strong>
-              <span>Expansion joints | Waterproofing execution</span>
-            </figcaption>
-          </figure>
-          <figure class="story-card reveal lightbox-trigger">
-            <img src="assets/images/hero-interior.jpeg" alt="Completed interior setup with space planning" loading="lazy">
-            <figcaption class="story-detail">
-              <strong>Space-Optimized Interiors</strong>
-              <span>Design + MEP + finishing integration</span>
-            </figcaption>
-          </figure>
-          <figure class="story-card reveal lightbox-trigger">
-            <img src="assets/images/gallery-asset.jpg" alt="Asset inspection and maintenance support" loading="lazy">
-            <figcaption class="story-detail">
-              <strong>Post-Delivery Asset Care</strong>
-              <span>Inspections, maintenance, and value support</span>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <section id="before-after-home" class="section before-after parallaxSections">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Real Results</p>
-          <h2>Before & After: Our Transformations</h2>
-        </div>
-        <div class="ba-grid">
-          <div class="ba-card reveal">
-            <h3>Waterproofing - Terrace Leak Fixed</h3>
-            <div class="ba-frame">
-              <div class="ba-image" style="background-image: url('assets/images/wip-site-1.jpg');"></div>
-              <div class="ba-after-wrap" style="width: 50%;">
-                <div class="ba-image" style="background-image: url('assets/images/wip-site-3.jpg');"></div>
-              </div>
-              <input type="range" min="0" max="100" value="50" class="ba-range" data-ba-range>
-            </div>
-            <p>5-year warranty | Miyapur, Hyderabad</p>
-          </div>
-          <div class="ba-card reveal">
-            <h3>Interior Design - Living Room Makeover</h3>
-            <div class="ba-frame">
-              <div class="ba-image" style="background-image: url('assets/images/wip-site-2.jpg');"></div>
-              <div class="ba-after-wrap" style="width: 50%;">
-                <div class="ba-image" style="background-image: url('assets/images/gallery-finish.jpeg');"></div>
-              </div>
-              <input type="range" min="0" max="100" value="50" class="ba-range" data-ba-range>
-            </div>
-            <p>Modular design | Gachibowli, Hyderabad</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="reviews" class="section reviews">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Client Reviews</p>
-          <h2>Real feedback from Hyderabad homeowners and businesses</h2>
-        </div>
-        <div class="reviews-grid">
-          <article class="review-card reveal">
-            <div class="review-rating">⭐⭐⭐⭐⭐</div>
-            <p>"Dr. Leakage team identified hidden seepage in our bathroom and fixed it permanently. No dampness after 6 months."</p>
-            <h4>- Ramesh K., Bowrampet</h4>
-          </article>
-          <article class="review-card reveal">
-            <div class="review-rating">⭐⭐⭐⭐⭐</div>
-            <p>"Interior execution was smooth and on-time. Space planning made our 2BHK feel much bigger."</p>
-            <h4>- Priya S., Miyapur</h4>
-          </article>
-          <article class="review-card reveal">
-            <div class="review-rating">⭐⭐⭐⭐⭐</div>
-            <p>"Transparent pricing, clear BOQ, and strong warranty support. Highly recommend for waterproofing."</p>
-            <h4>- Venkat M., Kompally</h4>
-          </article>
-          <article class="review-card reveal">
-            <div class="review-rating">⭐⭐⭐⭐⭐</div>
-            <p>"They handled full interior design and finishing for our office. Professional team and great results."</p>
-            <h4>- Anjali R., Gachibowli</h4>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section testimonials">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Client Voices</p>
-          <h2>Built on trust and tangible results</h2>
-        </div>
-        <div class="carousel reveal" id="carousel">
-          <article class="quote active">
-            <p>"The team translated our vision into a practical, elegant home. The process felt seamless."</p>
-            <h4>- Residential Client</h4>
-          </article>
-          <article class="quote">
-            <p>"They handled execution with discipline and kept us updated at every milestone."</p>
-            <h4>- Construction Client</h4>
-          </article>
-          <article class="quote">
-            <p>"From gifting strategy to delivery, everything reflected our brand perfectly."</p>
-            <h4>- Corporate Partner</h4>
-          </article>
-          <div class="dots">
-            <button class="dot active" data-slide="0" aria-label="Slide 1"></button>
-            <button class="dot" data-slide="1" aria-label="Slide 2"></button>
-            <button class="dot" data-slide="2" aria-label="Slide 3"></button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq" class="section">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">FAQ</p>
-          <h2>Frequently Asked Questions</h2>
-        </div>
-        <div class="faq-grid">
-          <article class="faq-item reveal">
-            <h3>How long does waterproofing work take?</h3>
-            <p>Bathroom waterproofing typically takes 2-3 days, while terrace waterproofing can take 5-7 days depending on area size. We provide exact timelines after inspection.</p>
-          </article>
-          <article class="faq-item reveal">
-            <h3>What is the warranty period?</h3>
-            <p>We offer up to 5 years warranty on waterproofing work and 6 months on interior work. Warranty terms are clearly documented in the agreement.</p>
-          </article>
-          <article class="faq-item reveal">
-            <h3>Do you serve areas outside Hyderabad?</h3>
-            <p>Yes, we serve all areas in Hyderabad and nearby Telangana districts. Contact us to check service availability for your location.</p>
-          </article>
-          <article class="faq-item reveal">
-            <h3>What is included in the free inspection?</h3>
-            <p>Our expert visits your site, diagnoses the issue, measures the area, and provides a detailed quote with material specifications—completely free.</p>
-          </article>
-          <article class="faq-item reveal">
-            <h3>How much does interior work cost?</h3>
-            <p>Interior costs range from ₹1,200-2,200 per sq ft depending on the package and materials chosen. We provide transparent BOQ before starting work.</p>
-          </article>
-          <article class="faq-item reveal">
-            <h3>How quickly can you respond to my inquiry?</h3>
-            <p>We respond within 24 hours to all inquiries via phone, WhatsApp, or email. Urgent requests are prioritized for same-day response.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <div class="container contact-grid">
-        <div class="contact-copy reveal">
-          <p class="eyebrow">Contact Us</p>
-          <h2>Get In Touch</h2>
-          <p>
-            Get in touch with us to learn more about interior or architecture design.
-            We would love to hear from you, here is how you can reach us.
-          </p>
-          <div class="contact-panel">
-            <h3>General Inquiries</h3>
-            <p>
-              Mignon Minds, 42 & 43 Shop No A6, Praneeth Pranav Blooms,
-              Bowrampet, Hyderabad, Telangana - 500043.
-            </p>
-            <a href="tel:+917396273399">+91 7396 273 399</a>
-            <a href="mailto:care@mignonminds.com">care@mignonminds.com</a>
-            <p style="margin-top: 1rem; color: var(--secondary); font-weight: 600;">⚡ We respond within 24 hours</p>
-          </div>
-          <div class="map-frame">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.8842892343287!2d78.39036!3d17.54194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDMyJzMxLjAiTiA3OMKwMjMnMjUuMyJF!5e0!3m2!1sen!2sin!4v1234567890" 
-              width="100%" 
-              height="300" 
-              style="border:0; border-radius: 12px;" 
-              allowfullscreen="" 
-              loading="lazy"
-              title="Mignon Minds Location - Bowrampet, Hyderabad">
-            </iframe>
-            <p style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--muted);">
-              📍 Services available across Hyderabad & Telangana
-            </p>
-          </div>
-            <a href="mailto:care@mignonminds.com">care@mignonminds.com</a>
-          </div>
-          <div class="social-links">
-            <a href="#" aria-label="Facebook">Facebook</a>
-            <a href="#" aria-label="Twitter">Twitter</a>
-            <a href="#" aria-label="LinkedIn">LinkedIn</a>
-            <a href="#" aria-label="Pinterest">Pinterest</a>
-            <a href="#" aria-label="Instagram">Instagram</a>
-          </div>
-          <iframe
-            class="map-frame"
-            title="Mignon Minds location map"
-            src="https://maps.google.com/maps?q=Praneeth%20Pranav%20Blooms%2C%20Bowrampet%2C%20Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            loading="lazy">
-          </iframe>
-        </div>
-        <form class="contact-form reveal" id="contact-form" novalidate>
-          <h3 style="margin-top: 0;">Quick Inquiry Form</h3>
-          <div class="form-row">
-            <label>
-              Name
-              <input type="text" name="name" required placeholder="Your full name">
-            </label>
-            <label>
-              Phone Number
-              <input type="tel" name="phone" required placeholder="+91 xxxxx xxxxx">
-            </label>
-          </div>
-          <label>
-            Service Needed
-            <select name="service" required>
-              <option value="">Select service</option>
-              <option>Waterproofing</option>
-              <option>Interior Design</option>
-              <option>Construction</option>
-              <option>Property Management</option>
-              <option>Corporate Gifting</option>
-            </select>
-          </label>
-          <label>
-            Location
-            <input type="text" name="location" required placeholder="Your area/locality in Hyderabad">
-          </label>
-          <label>
-            Message
-            <textarea name="message" rows="3" placeholder="Brief description of your requirement"></textarea>
-          </label>
-          <button type="submit" class="btn btn-primary">Submit Inquiry</button>
-          <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <div class="lightbox" id="lightbox" aria-hidden="true">
-    <button class="lightbox-close" id="lightbox-close" aria-label="Close image preview">×</button>
-    <img id="lightbox-image" src="" alt="Expanded project view">
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Civil Contracting</span><span class="sep">◆</span>
+      <span>Façade Engineering</span><span class="sep">◆</span>
+      <span>Advanced Waterproofing</span><span class="sep">◆</span>
+      <span>Turnkey Interiors</span><span class="sep">◆</span>
+      <span>MEP Coordination</span><span class="sep">◆</span>
+      <span>Property Stewardship</span><span class="sep">◆</span>
+      <span>Corporate Merchandise</span><span class="sep">◆</span>
+      <span>Civil Contracting</span><span class="sep">◆</span>
+      <span>Façade Engineering</span><span class="sep">◆</span>
+      <span>Advanced Waterproofing</span><span class="sep">◆</span>
+      <span>Turnkey Interiors</span><span class="sep">◆</span>
+      <span>MEP Coordination</span><span class="sep">◆</span>
+      <span>Property Stewardship</span><span class="sep">◆</span>
+      <span>Corporate Merchandise</span><span class="sep">◆</span>
+    </div>
   </div>
 
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <h4>Mignon Minds</h4>
-          <p>Professional waterproofing and interior design services in Hyderabad.</p>
-          <div class="social-links">
-            <a href="https://wa.me/917396273399" target="_blank" aria-label="WhatsApp" class="social-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <!-- ============ ATELIER ============ -->
+  <section id="atelier" class="section atelier">
+    <div class="shell">
+      <div class="section-head reveal">
+        <p class="eyebrow">I — The Atelier</p>
+        <h2 class="display">A house where craft<br>meets discipline.</h2>
+      </div>
+
+      <div class="atelier-grid">
+        <p class="atelier-statement reveal">
+          We are a Hyderabad-based <em>Limited Liability Partnership</em>
+          composing integrated solutions across the built environment —
+          from civil contracting and façade engineering to turnkey
+          interiors and long-term asset stewardship.
+        </p>
+
+        <div class="atelier-meta reveal">
+          <div class="meta-block">
+            <span class="label">Vision</span>
+            <span class="value">A trusted, multi-domain partner for spaces, assets, and experiences.</span>
+          </div>
+          <div class="meta-block">
+            <span class="label">Mission</span>
+            <span class="value">Integrated outcomes, transparent process, client-first focus.</span>
+          </div>
+          <div class="meta-block">
+            <span class="label">Registered</span>
+            <p>Praneeth Pranav Blooms, Bowrampet, Hyderabad — Telangana 500043.</p>
+            <p>Incorporated 18 April 2025 · Active · RoC Hyderabad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DISCIPLINES ============ -->
+  <section id="disciplines" class="section">
+    <div class="shell">
+      <div class="section-head reveal">
+        <p class="eyebrow">II — The Disciplines</p>
+        <h2 class="display">Four houses,<br>one craftsmanship.</h2>
+        <p class="lede">Specialised practices that compose together — each with its own discipline, joined by a single standard of execution.</p>
+      </div>
+
+      <div class="disciplines-grid">
+        <article class="discipline reveal">
+          <span class="discipline-no">01.</span>
+          <div class="discipline-body">
+            <h3>BLDUP <small>Construction</small></h3>
+            <ul>
+              <li>Civil contracting</li>
+              <li>Façade engineering</li>
+              <li>Building envelope</li>
+              <li>Advanced waterproofing</li>
+            </ul>
+            <a href="waterproofing.html" class="discipline-link">Waterproofing details →</a>
+          </div>
+        </article>
+
+        <article class="discipline reveal">
+          <span class="discipline-no">02.</span>
+          <div class="discipline-body">
+            <h3>SPACE <small>Interiors</small></h3>
+            <ul>
+              <li>Turnkey interior execution</li>
+              <li>MEP &amp; finishing works</li>
+              <li>Collaborative design thinking</li>
+              <li>Space optimisation</li>
+            </ul>
+            <a href="interiors.html" class="discipline-link">View portfolio →</a>
+          </div>
+        </article>
+
+        <article class="discipline reveal">
+          <span class="discipline-no">03.</span>
+          <div class="discipline-body">
+            <h3>ASSET <small>Property</small></h3>
+            <ul>
+              <li>Commercial leasing</li>
+              <li>Asset maintenance programmes</li>
+              <li>Buy &amp; sell facilitation</li>
+              <li>Due diligence</li>
+            </ul>
+            <a href="#contact" class="discipline-link">Discuss your asset →</a>
+          </div>
+        </article>
+
+        <article class="discipline reveal">
+          <span class="discipline-no">04.</span>
+          <div class="discipline-body">
+            <h3>MERCH <small>Corporate Gifting</small></h3>
+            <ul>
+              <li>Custom corporate gifting</li>
+              <li>Event &amp; festive solutions</li>
+              <li>Brand personalisation</li>
+              <li>Sustainable merchandise</li>
+            </ul>
+            <a href="#contact" class="discipline-link">Request a curation →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ METHOD ============ -->
+  <section id="method" class="section method">
+    <div class="shell">
+      <div class="section-head reveal">
+        <p class="eyebrow">III — The Method</p>
+        <h2 class="display">The Six Movements.</h2>
+        <p class="lede">A deliberate sequence — from listening to delivering — that turns intent into a place worth keeping.</p>
+      </div>
+
+      <div class="method-grid">
+        <figure class="method-stage reveal">
+          <span class="method-stage-tag" id="method-stage-tag">Movement I</span>
+          <img id="method-stage-img" src="assets/images/process-1.png" alt="Discover stage">
+        </figure>
+
+        <div class="method-list">
+          <button class="movement is-active" data-img="assets/images/process-1.png" data-tag="Movement I">
+            <span class="movement-no">I.</span>
+            <div class="movement-title">
+              Discover
+              <small>We listen to goals, context, budget, and constraints — composing a brief that fits the life of the space.</small>
+            </div>
+            <span class="movement-toggle">View</span>
+          </button>
+
+          <button class="movement" data-img="assets/images/process-2.png" data-tag="Movement II">
+            <span class="movement-no">II.</span>
+            <div class="movement-title">
+              Define
+              <small>Scope, milestones, and deliverables locked transparently — confidence over ambiguity.</small>
+            </div>
+            <span class="movement-toggle">View</span>
+          </button>
+
+          <button class="movement" data-img="assets/images/process-3.png" data-tag="Movement III">
+            <span class="movement-no">III.</span>
+            <div class="movement-title">
+              Design
+              <small>Concepts, plans, and material decisions resolved into a coherent design language.</small>
+            </div>
+            <span class="movement-toggle">View</span>
+          </button>
+
+          <button class="movement" data-img="assets/images/process-4.jpg" data-tag="Movement IV">
+            <span class="movement-no">IV.</span>
+            <div class="movement-title">
+              Develop
+              <small>Procurement, scheduling, and quality assurance set in motion — orchestrated and accountable.</small>
+            </div>
+            <span class="movement-toggle">View</span>
+          </button>
+
+          <button class="movement" data-img="assets/images/process-5.png" data-tag="Movement V">
+            <span class="movement-no">V.</span>
+            <div class="movement-title">
+              Deliver
+              <small>Execution with precision, transparent reporting, and visible milestones.</small>
+            </div>
+            <span class="movement-toggle">View</span>
+          </button>
+
+          <button class="movement" data-img="assets/images/process-6.png" data-tag="Movement VI">
+            <span class="movement-no">VI.</span>
+            <div class="movement-title">
+              Delight
+              <small>After handover we refine, support, and steward your investment for the long arc.</small>
+            </div>
+            <span class="movement-toggle">View</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NUMBERS ============ -->
+  <section class="numbers">
+    <div class="shell">
+      <div class="numbers-grid">
+        <div class="number reveal">
+          <div class="number-value"><span data-count="15">0</span><sup>days</sup></div>
+          <div class="number-label">Design</div>
+        </div>
+        <div class="number reveal">
+          <div class="number-value"><span data-count="30">0</span><sup>days</sup></div>
+          <div class="number-label">Production</div>
+        </div>
+        <div class="number reveal">
+          <div class="number-value"><span data-count="15">0</span><sup>days</sup></div>
+          <div class="number-label">Installation</div>
+        </div>
+        <div class="number reveal">
+          <div class="number-value"><span data-count="10">0</span><sup>+</sup></div>
+          <div class="number-label">Projects Delivered</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORKS ============ -->
+  <section id="works" class="section">
+    <div class="shell">
+      <div class="works-head reveal">
+        <div class="section-head" style="margin-bottom: 0;">
+          <p class="eyebrow">IV — Selected Works</p>
+          <h2 class="display">From the portfolio.</h2>
+        </div>
+        <a href="gallery.html" class="btn btn-ghost">All works <span class="arrow">→</span></a>
+      </div>
+
+      <div class="works-grid" data-lightbox>
+        <figure class="work work-a reveal">
+          <img src="assets/images/hero-interior.jpeg" alt="Bowrampet residence interior">
+          <figcaption class="work-meta">
+            <span class="tag">Interior · Residential</span>
+            <h3>Bowrampet Residence</h3>
+            <p>Concept to handover with MEP integration and premium finishing.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="work work-b reveal">
+          <img src="assets/images/gallery-architecture.jpeg" alt="Commercial facade">
+          <figcaption class="work-meta">
+            <span class="tag">Architecture · Commercial</span>
+            <h3>Workspace Façade</h3>
+            <p>Functional zoning and façade enhancement for rapid occupancy.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="work work-c reveal">
+          <img src="assets/images/gallery-finish.jpeg" alt="Finished villa interior">
+          <figcaption class="work-meta">
+            <span class="tag">Interior · Villa</span>
+            <h3>Villa Composition</h3>
+          </figcaption>
+        </figure>
+
+        <figure class="work work-d reveal">
+          <img src="assets/images/gallery-construction.jpg" alt="On-site construction">
+          <figcaption class="work-meta">
+            <span class="tag">Construction</span>
+            <h3>Turnkey Build</h3>
+          </figcaption>
+        </figure>
+
+        <figure class="work work-e reveal">
+          <img src="assets/images/gallery-asset.jpg" alt="Asset management">
+          <figcaption class="work-meta">
+            <span class="tag">Asset · Care</span>
+            <h3>NRI Programme</h3>
+          </figcaption>
+        </figure>
+
+        <figure class="work work-f reveal">
+          <img src="assets/images/wip-site-2.jpg" alt="Live development">
+          <figcaption class="work-meta">
+            <span class="tag">Work in progress · Hyderabad</span>
+            <h3>Active Development — Multi-team Coordination</h3>
+            <p>Civil, MEP, and fit-out activities resolved in coordination, with day-to-day quality reviews.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMPARE ============ -->
+  <section class="section">
+    <div class="shell">
+      <div class="section-head reveal">
+        <p class="eyebrow">V — Transformations</p>
+        <h2 class="display">Before, and after.</h2>
+        <p class="lede">A clear, unembellished view of what changes — and why our clients choose to begin again with us.</p>
+      </div>
+
+      <div class="compare-grid">
+        <article class="compare-card reveal">
+          <div class="compare-frame">
+            <img src="assets/images/wip-site-1.jpg" alt="Before transformation">
+            <div class="compare-after-wrap">
+              <img src="assets/images/hero-interior.jpeg" alt="After transformation">
+            </div>
+            <input type="range" class="compare-range" min="0" max="100" value="50" aria-label="Compare interior before and after">
+          </div>
+          <h3>Interior Composition</h3>
+          <p>Bowrampet · 5-year warranty on finishing works.</p>
+        </article>
+
+        <article class="compare-card reveal">
+          <div class="compare-frame">
+            <img src="assets/images/wip-site-2.jpg" alt="Site stage before handover">
+            <div class="compare-after-wrap">
+              <img src="assets/images/wip-site-3.jpg" alt="Site stage after handover">
+            </div>
+            <input type="range" class="compare-range" min="0" max="100" value="50" aria-label="Compare site progress">
+          </div>
+          <h3>Site to Handover</h3>
+          <p>Hyderabad · Coordinated civil, MEP &amp; finishing.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VOICES ============ -->
+  <section id="voices" class="section voices">
+    <div class="shell">
+      <div class="section-head reveal" style="text-align:center; justify-items:center; margin-inline:auto;">
+        <p class="eyebrow">VI — Voices</p>
+        <h2 class="display">Built on trust.<br>Spoken by clients.</h2>
+      </div>
+
+      <div class="voices-stage reveal">
+        <article class="voice is-active">
+          <blockquote>The team translated our vision into a practical, elegant home. The process felt seamless, and the result is unmistakably ours.</blockquote>
+          <cite>— Residential Client · Bowrampet</cite>
+        </article>
+        <article class="voice">
+          <blockquote>They handled execution with discipline and kept us updated at every milestone — confidence from day one to handover.</blockquote>
+          <cite>— Construction Client · Hyderabad</cite>
+        </article>
+        <article class="voice">
+          <blockquote>From gifting strategy to delivery, everything reflected our brand perfectly. A rare combination of taste and rigour.</blockquote>
+          <cite>— Corporate Partner</cite>
+        </article>
+        <article class="voice">
+          <blockquote>Transparent pricing, clear BOQ, and serious warranty support. Highly recommend for waterproofing.</blockquote>
+          <cite>— Venkat M. · Kompally</cite>
+        </article>
+
+        <div class="voice-dots" role="tablist">
+          <button class="voice-dot is-active" aria-label="Voice 1"></button>
+          <button class="voice-dot" aria-label="Voice 2"></button>
+          <button class="voice-dot" aria-label="Voice 3"></button>
+          <button class="voice-dot" aria-label="Voice 4"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section id="faq" class="section">
+    <div class="shell">
+      <div class="section-head reveal">
+        <p class="eyebrow">VII — Inquiry</p>
+        <h2 class="display">Frequently asked.</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <div class="faq-q">How long does waterproofing work take? <span class="toggle">+</span></div>
+          <div class="faq-a"><p>Bathroom waterproofing typically resolves in 2–3 days; terrace waterproofing in 5–7 days, depending on area. We provide a precise timeline after the inspection.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-q">What is the warranty period? <span class="toggle">+</span></div>
+          <div class="faq-a"><p>Up to 5 years on waterproofing and 6 months on interior works. Warranty terms are documented clearly within the agreement.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-q">Do you serve areas outside Hyderabad? <span class="toggle">+</span></div>
+          <div class="faq-a"><p>Yes — across Hyderabad and adjoining Telangana districts. Reach out and we will confirm coverage for your location.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-q">What is included in the free inspection? <span class="toggle">+</span></div>
+          <div class="faq-a"><p>An expert site visit, on-site diagnosis, area measurement, and a detailed quote with material specifications — at no cost.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-q">How is interior pricing structured? <span class="toggle">+</span></div>
+          <div class="faq-a"><p>Interior packages range from ₹1,200 to ₹2,200 per sq ft, depending on materials and finishes. A transparent BOQ is shared before execution begins.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-q">How quickly can you respond? <span class="toggle">+</span></div>
+          <div class="faq-a"><p>We respond within 24 hours via phone, WhatsApp, or email. Urgent enquiries are prioritised for same-day attention.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section contact">
+    <div class="shell contact-grid">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">Begin Your Project</p>
+        <h2 class="display">Let us compose<br>your next space.</h2>
+        <p>Whether it is a single intervention or an integrated build, our atelier is ready to listen. Share a few details and we will be in touch within 24 hours.</p>
+
+        <div class="contact-block">
+          <span class="label">Studio</span>
+          <span class="value">42 &amp; 43, Shop A6, Praneeth Pranav Blooms,<br>Bowrampet, Hyderabad — 500043.</span>
+        </div>
+        <div class="contact-block">
+          <span class="label">Telephone</span>
+          <a class="value" href="tel:+917396273399">+91 73962 73399</a>
+        </div>
+        <div class="contact-block">
+          <span class="label">Correspondence</span>
+          <a class="value" href="mailto:care@mignonminds.com">care@mignonminds.com</a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contact-form" novalidate>
+        <h3>Project Enquiry</h3>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="cf-name">Name</label>
+            <input id="cf-name" name="name" type="text" required placeholder="Your full name">
+          </div>
+          <div class="field">
+            <label for="cf-phone">Telephone</label>
+            <input id="cf-phone" name="phone" type="tel" required placeholder="+91 xxxxx xxxxx">
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="cf-service">Discipline</label>
+            <select id="cf-service" name="service" required>
+              <option value="">Select a discipline</option>
+              <option>Construction (BLDUP)</option>
+              <option>Interiors (SPACE)</option>
+              <option>Asset Management</option>
+              <option>Corporate Gifting (MERCH)</option>
+              <option>Waterproofing</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="cf-location">Location</label>
+            <input id="cf-location" name="location" type="text" required placeholder="Your locality">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="3" placeholder="Tell us about your space"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Enquiry <span class="arrow">→</span></button>
+        <p class="form-feedback" id="contact-feedback" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="foot">
+    <div class="shell">
+      <div class="foot-grid">
+        <div class="foot-col">
+          <span class="brand-name">Mignon Minds</span>
+          <p>An atelier of construction, interior, and asset craft. Composed in Hyderabad.</p>
+          <div class="foot-socials">
+            <a href="https://wa.me/917396273399" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
             </a>
-            <a href="https://www.facebook.com/mignonminds" target="_blank" aria-label="Facebook" class="social-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <a href="https://www.instagram.com/mignonminds" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
             </a>
-            <a href="https://www.instagram.com/mignonminds" target="_blank" aria-label="Instagram" class="social-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
-            </a>
-            <a href="https://www.linkedin.com/company/mignonminds" target="_blank" aria-label="LinkedIn" class="social-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <a href="https://www.linkedin.com/company/mignonminds" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
             </a>
           </div>
         </div>
-        <div class="footer-col">
-          <h4>Services</h4>
+
+        <div class="foot-col">
+          <h4>Disciplines</h4>
           <ul>
             <li><a href="waterproofing.html">Waterproofing</a></li>
-            <li><a href="interiors.html">Interior Design</a></li>
-            <li><a href="#services">Construction</a></li>
-            <li><a href="#services">Property</a></li>
-            <li><a href="#services">Gifting</a></li>
+            <li><a href="interiors.html">Interiors</a></li>
+            <li><a href="#disciplines">Construction</a></li>
+            <li><a href="#disciplines">Asset</a></li>
+            <li><a href="#disciplines">Merchandise</a></li>
           </ul>
         </div>
-        <div class="footer-col">
-          <h4>Quick Links</h4>
+
+        <div class="foot-col">
+          <h4>Atelier</h4>
           <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#atelier">About</a></li>
+            <li><a href="#method">Method</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#voices">Voices</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="tel:+917396273399">Call Now</a></li>
           </ul>
         </div>
-        <div class="footer-col">
-          <h4>Contact</h4>
-          <p>Hyderabad, Telangana</p>
-          <p>+91 7396273399</p>
-          <p>care@mignonminds.com</p>
+
+        <div class="foot-col">
+          <h4>Studio</h4>
+          <p>Bowrampet, Hyderabad,<br>Telangana — 500043.</p>
+          <p><a href="tel:+917396273399">+91 73962 73399</a></p>
+          <p><a href="mailto:care@mignonminds.com">care@mignonminds.com</a></p>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>© <span id="year"></span> Mignon Minds. All rights reserved.</p>
-        <a href="#home">Back to top</a>
+
+      <div class="foot-bottom">
+        <span>© <span id="year"></span> Mignon Minds LLP. All rights reserved.</span>
+        <a href="#top">Return to top ↑</a>
       </div>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">×</button>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <script src="editorial.js"></script>
 </body>
 </html>
